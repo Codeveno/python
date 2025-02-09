@@ -12,7 +12,7 @@ def SimpleIinterest(principal, Time, R):
     SI=(principal*Time*R)/100
     return SI
 
-Principle=print(input("kindly enter the priciciple amount: "))
+Principle = print(input("kindly enter the priciciple amount: "))
 Time =int(input("kindly enter the time: "))
 Rate =int(input("kindly enter the rate:" ))
 Amount=Principle + SimpleIinterest(Principle, Time, Rate)

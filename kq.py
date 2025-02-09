@@ -28,7 +28,7 @@ class FlightBookingApp:
             for flight in self.flights:
                 print(f"Flight {flight['flight_number']} to {flight['destination']} at {flight['departure_time']}")
 
-
+    
 app = FlightBookingApp()
 app.add_flight("KQ101", "Nairobi", "10:00 AM")
 app.add_flight("KQ202", "New York", "12:00 PM")
