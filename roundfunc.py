@@ -3,3 +3,4 @@
 print(round(3.14159, 9))
 print(round(3,-2))
 print(round(3,2))
+print(round(67, 2))
